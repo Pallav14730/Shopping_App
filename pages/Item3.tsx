@@ -1,6 +1,6 @@
 import { useState } from "react"
 import Image from "next/image"
-import image5 from '../Images/image5.jpeg'
+import image99 from '../Images/image99.jpeg'
 
 function Item1() {
 
@@ -20,7 +20,7 @@ function Item1() {
             <div className='w-1/6 inline-block  px-4 py-4 my-5 mx-4 rounded-xl shadow-xl hover:shadow-green-300'>
                 <div className=''>
                     {/* image */}
-                    <Image src={image5} alt="vegetables" className='w-2/3 h-1/2' />
+                    <Image src={image99} alt="vegetables" className='w-2/3 h-1/2' />
                 </div>
                 <div>
                     {/* description */}

@@ -3,7 +3,7 @@ import aata from "../Images/aata.jpeg";
 import rice from "../Images/rice.jpeg";
 import dal from "../Images/dal.jpeg";
 import oil from "../Images/oil.jpeg";
-import fruits from "../Images/fruits.jpeg";
+// import fruits from "../Images/fruits.jpeg";
 import Link from "next/link";
 import Image from "next/image";
 import Banner from "./Banner";

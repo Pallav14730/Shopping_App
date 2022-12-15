@@ -1,6 +1,7 @@
 import Image from "next/image"
 import Link from "next/link"
 import favicon from "../public/favicon/favicon.ico"
+import Login from "./Login"
 
 function NavBar() {
     return (
@@ -13,9 +14,7 @@ function NavBar() {
         <h1 className="px-8 text-xl hover:animate-bounce text-black">Home</h1>
         </Link>
         <h1 className="text-xl px-8 md: hover:animate-bounce">About</h1>
-        <Link href="/login">
-        <h1 className="text-2xl px-10 mx-50  hover:animate-bounce">Login</h1>
-        </Link>
+        <Login />
         <Link href="/cart">
         <h1 className="text-3xl px-3 mx-5   shadow-xl rounded bg-gray-100 hover:outline">Cart</h1>
         </Link>
